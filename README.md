@@ -1,12 +1,11 @@
 # AnthroAb: Human Antibody Language Model
 
 ```
-    ___                      _           _     
-   /   |  ____ ____  ____  (_)___  ____| |__  
-  / /| | / __ `/ _ \/ __ \/ / __ \/ __ \ '_ \ 
- / ___ |/ /_/ /  __/ / / / / /_/ / /_/ / / / /
-/_/  |_|\__, /\___/_/ /_/_/\____/\____/_/ /_/ 
-        /____/                                  
+█████  ███    ██ ████████ ██   ██ ██████   ██████      █████  ██████  
+██   ██ ████   ██    ██    ██   ██ ██   ██ ██    ██    ██   ██ ██   ██ 
+███████ ██ ██  ██    ██    ███████ ██████  ██    ██ ██ ███████ ██████  
+██   ██ ██  ██ ██    ██    ██   ██ ██   ██ ██    ██    ██   ██ ██   ██ 
+██   ██ ██   ████    ██    ██   ██ ██   ██  ██████     ██   ██ ██████
 ```
 
 AnthroAb is a human antibody language model based on RoBERTa, specifically trained for antibody humanization tasks.
@@ -22,11 +21,11 @@ AnthroAb is a human antibody language model based on RoBERTa, specifically train
 ## Installation
 
 ```bash
-# Install from PyPI (recommended)
+# Install from PyPI (when published)
 pip install anthroab
 
 # Or install from source
-git clone https://github.com/nagarh/AnthroAb
+git clone https://github.com/your-username/AnthroAb
 cd AnthroAb
 pip install -e .
 ```
