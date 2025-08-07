@@ -1,0 +1,14 @@
+include README.md
+include LICENSE
+include setup.py
+include MANIFEST.in
+recursive-include anthroab *.py
+recursive-include anthroab *.pt
+recursive-include anthroab *.txt
+recursive-include anthroab *.json
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude *.pyo
+global-exclude *.pyd
+global-exclude .git*
+global-exclude .DS_Store 
