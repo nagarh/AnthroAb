@@ -45,7 +45,6 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     include_package_data=True,
-    package_data={'anthroab': ['*.pt', '*.txt', '*.json']},
     url='https://github.com/nagarh/AnthroAb',
     project_urls={
         'Bug Reports': 'https://github.com/nagarh/AnthroAb/issues',
