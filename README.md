@@ -22,6 +22,8 @@ AnthroAb is a human antibody language model based on RoBERTa, specifically train
 
 ```bash
 # Install from PyPI 
+conda create -n anthroab python=3.10
+conda activate anthroab
 pip install anthroab
 
 # Or install from source
@@ -38,7 +40,7 @@ pip install -e .
 import anthroab
 
 # Humanize a heavy chain sequence
-vh_sequence = "***LV*SGAEVKKPGASVKVSCKASGYTFTDYYIHWVKQRPEQGLEWIGWIDPENGDTEYAPKFQGKATITADTSSNTAYLQLSSLTSEDTAVYYCARNLGPSFYFDYWGQGTLVTVSS"
+vh_sequence = "Q**LV*SGAEVKKPGASVKVSCKASGYTFTDYYIHWVKQRPEQGLEWIGWIDPENGDTEYAPKFQGKATITADTSSNTAYLQLSSLTSEDTAVYYCARNLGPSFYFDYWGQGTLVTVSS"
 humanized_vh = anthroab.predict_best_score(vh_sequence, 'H')
 print(f"Humanized VH: {humanized_vh}")
 
