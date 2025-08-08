@@ -21,11 +21,11 @@ AnthroAb is a human antibody language model based on RoBERTa, specifically train
 ## Installation
 
 ```bash
-# Install from PyPI (when published)
+# Install from PyPI 
 pip install anthroab
 
 # Or install from source
-git clone https://github.com/your-username/AnthroAb
+git clone https://github.com/nagarh/AnthroAb
 cd AnthroAb
 pip install -e .
 ```
