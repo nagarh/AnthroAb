@@ -1,4 +1,4 @@
-# AnthroAb: Human Antibody Language Model
+# AnthroAb: Antibody Humanization Language Model
 
 ```
               █████  ███    ██ ████████ ██   ██ ██████   ██████     █████   ██████  
