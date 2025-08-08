@@ -27,10 +27,10 @@ setup(
     license='MIT',
     python_requires=">=3.10",
     install_requires=[
-        'pandas>=1.3.0',
-        'transformers>=4.20.0',
-        'torch>=1.9.0',
-        'numpy>=1.21.0',
+        'pandas>=1.0.0',
+        'transformers>=4.0.0',
+        'torch>=1.7.0',
+        'numpy>=1.19.0',
     ],
     keywords='anthroab, antibody humanization, roberta, biophi, antibody design, bioinformatics, protein engineering',
     classifiers=[
