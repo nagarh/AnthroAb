@@ -31,6 +31,7 @@ setup(
         'transformers>=4.0.0',
         'torch>=1.7.0',
         'numpy>=1.19.0',
+        'tqdm>=4.0.0',
     ],
     keywords='anthroab, antibody humanization, roberta, biophi, antibody design, bioinformatics, protein engineering',
     classifiers=[
@@ -45,6 +46,11 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     include_package_data=True,
+    entry_points={
+        'console_scripts': [
+            'anthroab=anthroab.cli:main',
+        ],
+    },
     url='https://github.com/nagarh/AnthroAb',
     project_urls={
         'Bug Reports': 'https://github.com/nagarh/AnthroAb/issues',
